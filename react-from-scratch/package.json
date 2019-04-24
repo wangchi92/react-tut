@@ -1,0 +1,42 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "Based on https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c69b84658",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	  "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangchi92/react-tut.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "from",
+    "scratch"
+  ],
+  "author": "wayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangchi92/react-tut/issues"
+  },
+  "homepage": "https://github.com/wangchi92/react-tut#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
