@@ -38,3 +38,10 @@
 7) 	Update package.json scripts
 	a. "start": "webpack-dev-server --mode development"
 	b. "build": "webpack --mode development"
+
+## Additional libraries
+1)	Routing: React router v4
+
+2)	State management: Redux / MobX
+
+3)	Testing: Jest / Enzyme
